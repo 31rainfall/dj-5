@@ -1,0 +1,40 @@
+<dataSource name="MySQL - lc10@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="lc10">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="lc1" />
+    <schema id="4" name="leni" />
+    <schema id="5" name="mysql" />
+    <schema id="6" name="performance_schema" />
+    <schema id="7" name="qcdcms2" />
+    <schema id="8" name="sakila" />
+    <schema id="9" name="sys" />
+    <schema id="10" name="tango" />
+    <schema id="11" name="test15" />
+    <schema id="12" name="world" />
+    <table id="13" parent="1" name="django_migrations" />
+    <column id="14" parent="13" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="15" parent="13" name="app">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="16" parent="13" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="17" parent="13" name="applied">
+      <mandatory>1</mandatory>
+      <data-type>datetime(6)|0</data-type>
+    </column>
+    <key id="18" parent="13" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
